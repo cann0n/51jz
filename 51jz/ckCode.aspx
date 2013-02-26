@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ckCode.aspx.cs" Inherits="_51jz.ckCode" %>

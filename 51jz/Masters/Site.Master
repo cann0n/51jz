@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_51jz.Masters.Site" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords"  content="兼职,兼职网,1010兼职网" />
+<meta  name="description" content="1010兼职网是领先的兼职招聘网站，提供网上兼职、大学生兼职等信息，免费发布招聘信息、寻求兼职人才、查找兼职工作，为求职者和招聘者提供免费发布信息的平台。" />
+<link href="/Styles/Site.css" rel="stylesheet" type="text/css" />
+<asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+<form id="form1" runat="server">
+
+<div class="topwrap">
+<div class="logo"><a href="http://sh.1010jz.com"><img src="http://sta.1010jz.com/images/logo.gif" alt="上海兼职网"   border="0"  /></a></div>
+	<div class="city">
+<span class="CurrentProvince">上海</span><br /> <A  href="http://www.1010jz.com/?changecity=yes">[切换城市]</A> </div>
+<div class="login"><a href=/login/>登录</a> | <a href=/reg/>注册</a> | <a href='http://www.1010jz.com/user/getpassword.html'>忘记密码</a></div>
+</div>
+<div class="ts-1"><div class="ts-1-1"></div>
+	<div class="ts-1-2"></div>
+</div>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+
+<div class="wrap">
+<div class="line"></div>
+<div class="outLinks">相关城市：<a href='http://bj.1010jz.com'>北京兼职网</a><a href='http://gz.1010jz.com'>广州兼职网</a><a href='http://sz.1010jz.com'>深圳兼职网</a><a href='http://wh.1010jz.com'>武汉兼职网</a><a href='http://nj.1010jz.com'>南京兼职网</a><a href='http://hz.1010jz.com'>杭州兼职网</a><a href='http://xa.1010jz.com'>西安兼职网</a><a href='http://cd.1010jz.com'>成都兼职网</a><a href='http://su.1010jz.com'>苏州兼职网</a><A href="http://www.1010jz.com/?changecity=yes">所有城市>></A>
+	 </div> 
+    <div class="line"></div>
+  <div class="outLinks">
+   友情链接：<a href='http://www.job5188.com' target='_blank'>甘肃人才网</a><a href='http://sh.ganji.com/zhaopin/' target='_blank'>上海招聘</a><a href='http://www.ot51.com' target='_blank'>企业管理培训</a><a href='http://www.zx110.org' target='_blank'>征信网</a><a href='http://shanghai.baixing.com/gongzuo/' target='_blank'>上海招聘</a><a href='http://www.ttgood.com' target='_blank'>家教</a><a href='http://www.1010jz.com/newjianzhi/' target='_blank'>最新兼职信息</a><a href='http://job.foodmate.net' target='_blank'>食品人才</a><a href='http://zp.tc.cn' target='_blank'>太仓人才网</a><a href='http://cd.hnz.com.cn' target='_blank'>常德人才网</a><a href='http://www.288job.cn' target='_blank'>寿光人才网</a><a href='http://nt.caihao.com' target='_blank'>南通招聘网</a><a href='http://www.198526.com' target='_blank'>上海家政</a><a href='http://ehr.goodjobs.cn/' target='_blank'>安徽招聘网</a><div class='second'><a href='http://www.wujianghr.com' target='_blank'>吴江人才网</a><a href='http://www.8090.com/' target='_blank'>模特人才网</a><a href='http://www.xzzp.net/' target='_blank'>徐州招聘</a></div>
+ </div> 
+
+  <div class="line"></div>
+  <div class="bomttomfont">
+        <a href="http://www.1010jz.com/common/help.html">帮助中心</a> | <a href="http://www.1010jz.com/common/about.html">站点简介</a> | <a href="/common/ad.asp">广告赞助</a> | <a href="http://www.1010jz.com/common/contact.html">联系我们</a> | <a href="http://www.1010jz.com/common/rule.html">用户协议</a> | <a href="http://q.1010jz.com/forum-2.html" target="_blank">意见反馈</a> | <a href="http://www.1010jz.com/common/link.html" target="_blank">友情链接</a> | <a href="http://www.1010jz.com/common/jobs.html">招贤纳士</a><br />
+      上海1010兼职网，100%专注本地的上海兼职网站， 上海兼职、上海招聘首选1010上海兼职网&nbsp; 
+      <br />&copy;2013&nbsp;沪ICP备06047336号　16 ms<div class="outLinks"><a href=http://www.itlaw.com.cn target='_blank' >ITLAW-庄毅雄律师</a></div> 
+</div>
+</div>
+
+</form>
+</body>
+</html>
